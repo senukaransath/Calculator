@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+body{
+    background-color: rgb(31 39 22);
+}
+header h1{
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 30px;
+}
+
+.cal{
+
+    width: 400px;
+    text-align: center;
+    border: solid 1px rgb(58, 57, 57);
+    padding: 15px;
+    margin: auto;
+    background-color: rgb(46, 45, 45);
+    border-radius: 5px;
+
+
+}
+
+.txt-box{
+    width: 95%;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    height: 70px;
+    padding: 5px;
+    font-size: 30px;
+    font-weight: 200;
+    background-color: rgb(255, 251, 251);
+    border: none;
+    text-align: right;
+    color:rgb(52, 50, 50);
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.btns{
+
+    display: grid;
+    grid-template-columns:  24% 24% 24% 24%;
+    grid-gap:5px;
+    align-items: center;
+    padding: 5px;
+    justify-content: center;
+
+
+}
+
+#btnEqul{
+    width: 98%;
+    margin: auto;
+}
+.btn{
+    background-color: rgb(236, 234, 234);
+    color: rgb(0, 0, 0);
+    border: none;
+    height: 60px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+
+.fa-face-laugh-squint{
+    font-size: 20px;
+    color: white;
+}
+
+
+#btnEqul{
+background-color: rgb(216, 154, 20);
+}
+
+#btnEqul:hover{
+    background-color: rgb(255, 255, 255);
+    }
+.btn:hover{
+    background-color: rgb(216, 154, 20);
+}
